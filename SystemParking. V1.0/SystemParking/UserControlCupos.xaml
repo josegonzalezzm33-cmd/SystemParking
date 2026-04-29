@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="SystemParking.UserControlCupos"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SystemParking"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="1100">
+
+    <Grid Background="White">
+        <TextBlock Text="ESTADO DE OCUPACIÓN" FontSize="24" FontWeight="Bold" 
+                   Foreground="#9B59B6" Margin="20"/>
+
+        <Button x:Name="btnCerrarVista" Content="X" HorizontalAlignment="Right" VerticalAlignment="Top" 
+                Width="35" Height="35" Margin="10" Background="#E74C3C" 
+                Foreground="White" FontWeight="Bold" BorderThickness="0" 
+                Click="btnCerrarVista_Click" Cursor="Hand"/>
+
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,60,0,20">
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                <Border Background="#F4ECF7" Width="120" Height="120" CornerRadius="60" 
+                        BorderBrush="#9B59B6" BorderThickness="4">
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock x:Name="lblCuposLibres" Text="15" FontSize="40" 
+                                   FontWeight="Bold" HorizontalAlignment="Center" Foreground="#9B59B6"/>
+                        <TextBlock Text="LIBRES" FontSize="10" FontWeight="Bold" 
+                                   HorizontalAlignment="Center" Foreground="#7D3C98"/>
+                    </StackPanel>
+                </Border>
+                <StackPanel VerticalAlignment="Center" Margin="30,0,0,0">
+                    <TextBlock x:Name="lblCapacidadTotal" Text="Capacidad Total: 0 espacios" FontSize="18" Foreground="#5B2C6F" FontWeight="Bold"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                        <Rectangle Width="12" Height="12" Fill="#2ECC71" RadiusX="2" RadiusY="2"/>
+                        <TextBlock Text=" Disponible" FontSize="11" Margin="5,0,15,0"/>
+                        <Rectangle Width="12" Height="12" Fill="#E74C3C" RadiusX="2" RadiusY="2"/>
+                        <TextBlock Text=" Ocupado" FontSize="11" Margin="5,0"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <Border Background="#F8F9F9" CornerRadius="10" Padding="15" BorderBrush="#D1D8E0" BorderThickness="1">
+                <UniformGrid x:Name="gridCajones" Width="950" Height="450">
+                </UniformGrid>
+            </Border>
+        </StackPanel>
+    </Grid>
+</UserControl>

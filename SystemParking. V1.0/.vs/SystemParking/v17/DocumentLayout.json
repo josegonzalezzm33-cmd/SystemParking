@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Ambientes Colaborativos\\SystemParking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|c:\\ambientes colaborativos\\systemparking\\systemparking\\usercontrolcupos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|solutionrelative:systemparking\\usercontrolcupos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|c:\\ambientes colaborativos\\systemparking\\systemparking\\usercontrolcupos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|solutionrelative:systemparking\\usercontrolcupos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|c:\\ambientes colaborativos\\systemparking\\systemparking\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|solutionrelative:systemparking\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|c:\\ambientes colaborativos\\systemparking\\systemparking\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|solutionrelative:systemparking\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|c:\\ambientes colaborativos\\systemparking\\systemparking\\usercontrolreportes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|solutionrelative:systemparking\\usercontrolreportes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|c:\\ambientes colaborativos\\systemparking\\systemparking\\usercontrolreportes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|solutionrelative:systemparking\\usercontrolreportes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|c:\\ambientes colaborativos\\systemparking\\systemparking\\usercontrolconfiguracion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|solutionrelative:systemparking\\usercontrolconfiguracion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|c:\\ambientes colaborativos\\systemparking\\systemparking\\conexion\\libreriascxn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84C948E1-B038-45D1-9E77-D78776C09A1C}|SystemParking\\SystemParking.csproj|solutionrelative:systemparking\\conexion\\libreriascxn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControlCupos.xaml.cs",
+              "DocumentMoniker": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\UserControlCupos.xaml.cs",
+              "RelativeDocumentMoniker": "SystemParking\\UserControlCupos.xaml.cs",
+              "ToolTip": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\UserControlCupos.xaml.cs",
+              "RelativeToolTip": "SystemParking\\UserControlCupos.xaml.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAswGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:48:50.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControlCupos.xaml",
+              "DocumentMoniker": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\UserControlCupos.xaml",
+              "RelativeDocumentMoniker": "SystemParking\\UserControlCupos.xaml",
+              "ToolTip": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\UserControlCupos.xaml",
+              "RelativeToolTip": "SystemParking\\UserControlCupos.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-23T17:48:44.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserControlReportes.xaml.cs",
+              "DocumentMoniker": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\UserControlReportes.xaml.cs",
+              "RelativeDocumentMoniker": "SystemParking\\UserControlReportes.xaml.cs",
+              "ToolTip": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\UserControlReportes.xaml.cs",
+              "RelativeToolTip": "SystemParking\\UserControlReportes.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:39:47.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserControlReportes.xaml",
+              "DocumentMoniker": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\UserControlReportes.xaml",
+              "RelativeDocumentMoniker": "SystemParking\\UserControlReportes.xaml",
+              "ToolTip": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\UserControlReportes.xaml",
+              "RelativeToolTip": "SystemParking\\UserControlReportes.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-22T17:11:14.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SystemParking\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "SystemParking\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:02:46.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "SystemParking\\LoginWindow.xaml",
+              "ToolTip": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\LoginWindow.xaml",
+              "RelativeToolTip": "SystemParking\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-03T23:02:45.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserControlConfiguracion.xaml",
+              "DocumentMoniker": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\UserControlConfiguracion.xaml",
+              "RelativeDocumentMoniker": "SystemParking\\UserControlConfiguracion.xaml",
+              "ToolTip": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\UserControlConfiguracion.xaml",
+              "RelativeToolTip": "SystemParking\\UserControlConfiguracion.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-03T15:22:41.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LibreriasCXN.cs",
+              "DocumentMoniker": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\Conexion\\LibreriasCXN.cs",
+              "RelativeDocumentMoniker": "SystemParking\\Conexion\\LibreriasCXN.cs",
+              "ToolTip": "C:\\Ambientes Colaborativos\\SystemParking\\SystemParking\\Conexion\\LibreriasCXN.cs",
+              "RelativeToolTip": "SystemParking\\Conexion\\LibreriasCXN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T15:12:30.951Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

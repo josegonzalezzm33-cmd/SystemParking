@@ -1,0 +1,80 @@
+﻿<Window x:Class="SystemParking.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Acceso - Parking Express" Height="500" Width="400"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" 
+        AllowsTransparency="True" Background="Transparent">
+
+    <Border Margin="15" CornerRadius="25">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="25" ShadowDepth="0" Opacity="0.6" Color="Black"/>
+        </Border.Effect>
+
+        <Border CornerRadius="25" BorderThickness="1" BorderBrush="#44FFFFFF">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#1A1C20" Offset="0"/>
+                    <GradientStop Color="#2C3E50" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Grid>
+                <Button x:Name="btnCerrar" Content="✕" HorizontalAlignment="Right" VerticalAlignment="Top" 
+                        Margin="0,15,15,0" Background="Transparent" BorderThickness="0" 
+                        Foreground="White" Opacity="0.5" Click="btnCerrar_Click" Cursor="Hand"/>
+
+                <StackPanel Margin="35,30">
+
+                    <Border Width="70" Height="70" Background="#1ABC9C" CornerRadius="20" Margin="0,0,0,20">
+                        <TextBlock Text="P" Foreground="White" FontSize="45" FontWeight="Bold" 
+                                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+
+                    <TextBlock Text="INICIO DE SESION" FontSize="22" FontWeight="Bold" 
+                               HorizontalAlignment="Center" Foreground="White" Margin="0,0,0,5"/>
+                    <TextBlock Text="Parking Express Los Mochis" FontSize="13" 
+                               HorizontalAlignment="Center" Foreground="#BDC3C7" Margin="0,0,0,40"/>
+
+                    <TextBlock Text="Usuario" Foreground="#1ABC9C" FontWeight="SemiBold" Margin="5,0,0,5"/>
+                    <Border Background="#22FFFFFF" CornerRadius="10" Margin="0,0,0,20">
+                        <TextBox x:Name="txtUsuario" Height="40" Background="Transparent" BorderThickness="0" 
+                                 Foreground="White" Padding="10,0" VerticalContentAlignment="Center" 
+                                 CaretBrush="White" FontSize="15" KeyDown="txtUsuario_KeyDown"/>
+                    </Border>
+
+                    <TextBlock Text="Contraseña" Foreground="#1ABC9C" FontWeight="SemiBold" Margin="5,0,0,5"/>
+                    <Border Background="#22FFFFFF" CornerRadius="10" Margin="0,0,0,35">
+                        <PasswordBox x:Name="txtPassword" Height="40" Background="Transparent" BorderThickness="0" 
+                                     Foreground="White" Padding="10,0" VerticalContentAlignment="Center" 
+                                     CaretBrush="White" FontSize="15" KeyDown="txtPassword_KeyDown"/>
+                    </Border>
+
+                    <Button x:Name="btnEntrar" Content="INGRESAR AL SISTEMA" Height="50" 
+                            Foreground="White" FontWeight="Bold" FontSize="14"
+                            Click="btnEntrar_Click" Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#1ABC9C"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}" CornerRadius="12">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#16A085"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Border>
+</Window>

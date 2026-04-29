@@ -1,0 +1,115 @@
+﻿<UserControl x:Class="SystemParking.UserControlConfiguracion"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SystemParking"
+             mc:Ignorable="d" 
+             d:DesignHeight="750" d:DesignWidth="950"
+             Loaded="UserControl_Loaded">
+
+    <Grid Background="White">
+        <TextBlock Text="CONFIGURACIÓN Y USUARIOS" FontSize="24" FontWeight="Bold" 
+                   Foreground="#7F8C8D" Margin="20"/>
+
+        <Button x:Name="btnCerrarVista" Content="X" HorizontalAlignment="Right" VerticalAlignment="Top" 
+                Width="30" Height="30" Margin="10" Background="#E74C3C" 
+                Foreground="White" FontWeight="Bold" BorderThickness="0" 
+                Click="btnCerrarVista_Click" Cursor="Hand"/>
+
+        <Grid Margin="20,70,20,20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,0,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Margin="10,0">
+                    <TextBlock Text="⚙️ GENERAL" FontSize="18" FontWeight="Bold" Foreground="#1ABC9C" Margin="0,0,0,15"/>
+                    <TextBlock Text="Tarifa por Hora ($)" Margin="0,0,0,5" Foreground="#2C3E50"/>
+                    <TextBox x:Name="txtTarifa" Text="15.00" Padding="8" Margin="0,0,0,10"/>
+                    <TextBlock Text="Lugares Totales" Margin="0,0,0,5" Foreground="#2C3E50"/>
+                    <TextBox x:Name="txtCapacidad" Text="40" Padding="8" Margin="0,0,0,15"/>
+                    <Button x:Name="btnGuardarConfig" Content="GUARDAR CAMBIOS" Height="40" 
+                            Background="#2C3E50" Foreground="White" FontWeight="Bold" Click="btnGuardarConfig_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </StackPanel>
+
+                <Rectangle Grid.Column="1" Fill="#D1D8E0" Margin="5,0"/>
+
+                <StackPanel Grid.Column="2" Margin="10,0">
+                    <TextBlock Text="👤 NUEVO USUARIO" FontSize="18" FontWeight="Bold" Foreground="#1ABC9C" Margin="0,0,0,15"/>
+
+                    <TextBlock Text="Nombre Completo" Margin="0,0,0,5" Foreground="#2C3E50"/>
+                    <TextBox x:Name="txtNombreReal" Padding="8" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Nombre de Usuario (Login)" Margin="0,0,0,5" Foreground="#2C3E50"/>
+                    <TextBox x:Name="txtNuevoUsuario" Padding="8" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Contraseña" Margin="0,0,0,5" Foreground="#2C3E50"/>
+                    <Grid Margin="0,0,0,10">
+                        <PasswordBox x:Name="txtNuevoPass" Padding="8"/>
+                        <TextBox x:Name="txtPassVisible" Padding="8" Visibility="Collapsed"/>
+                        <Button x:Name="btnVerPass" Content="👁️" HorizontalAlignment="Right" Width="30" 
+                Background="Transparent" BorderThickness="0" Cursor="Hand"
+                PreviewMouseDown="btnVerPass_PreviewMouseDown" PreviewMouseUp="btnVerPass_PreviewMouseUp"/>
+                    </Grid>
+
+                    <CheckBox x:Name="chkNuevoUsuarioActivo" Content="Usuario Activo" 
+              IsChecked="True" Foreground="#34495E" FontWeight="SemiBold" 
+              Margin="0,5,0,15" VerticalContentAlignment="Center"/>
+
+                    <Button x:Name="btnRegistrarUsuario" Content="REGISTRAR USUARIO" Height="40" 
+            Background="#1ABC9C" Foreground="White" FontWeight="Bold" Click="btnRegistrarUsuario_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Text="📋 USUARIOS REGISTRADOS" FontSize="18" FontWeight="Bold" 
+                           Foreground="#7F8C8D" Margin="0,10,0,10"/>
+
+                <DataGrid Grid.Row="1" x:Name="dgUsuarios" AutoGenerateColumns="False" 
+          CanUserAddRows="False" Background="#F8F9F9" 
+          BorderBrush="#D1D8E0" BorderThickness="1" HeadersVisibility="Column">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Nombre Completo" Binding="{Binding Nombre}" Width="*"/>
+                        <DataGridTextColumn Header="Login" Binding="{Binding Usuario}" Width="*"/>
+                        <DataGridCheckBoxColumn Header="Activo" Binding="{Binding EstaActivo}" Width="100"/>
+
+                        <DataGridTemplateColumn Header="Acciones" Width="100">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="Modificar" Background="#3498DB" Foreground="White" 
+                    BorderThickness="0" Cursor="Hand" Padding="5,2"
+                    Click="btnModificar_Click"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>
