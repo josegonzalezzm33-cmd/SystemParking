@@ -1,1 +1,3 @@
-"# SystemParking" 
+El proyecto System Parking fue desarrollado con el propósito de ofrecer una solución práctica para la administración de estacionamientos mediante un sistema automatizado. Este sistema permite llevar un control eficiente de entradas y salidas de vehículos, así como el registro y monitoreo de los espacios disponibles en tiempo real. Además, busca facilitar la gestión del estacionamiento, brindar mayor seguridad y optimizar el servicio para los usuarios.
+
+A través de este proyecto se aplicaron conocimientos de programación, diseño de interfaces y manejo de bases de datos, integrando diferentes herramientas tecnológicas para crear un sistema funcional y fácil de utilizar. Con ello, System Parking representa una alternativa moderna que contribuye a mejorar la administración y organización de estacionamientos de manera eficiente y confiable.
